@@ -1,0 +1,19 @@
+<div class="main-container">
+	<header class="header-6">
+		<div class="branding">
+				<span class="title">Parse DXF</span>
+		</div>
+		<div class="header-nav">
+			<button class="active nav-link nav-text" (click)="parseUploadedDxf()">Home</button>
+		</div>
+		<div class="header-actions">
+			<a href="javascript://" class="nav-link nav-icon">
+			</a>
+		</div>
+	</header>
+	<div class="content-container">
+		<div class="content-area">
+			<input type="file" (change)="fileChanged($event)" accept=".dxf"/>
+		</div>
+	</div>
+</div>
